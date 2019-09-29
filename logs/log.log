@@ -1,0 +1,98 @@
+2019-09-26 11:19:04  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:19:04  [ main:139 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:19:04  [ main:139 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:19:04  [ main:139 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:19:04  [ main:139 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:25:11  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:25:11  [ main:146 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:25:11  [ main:146 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:25:11  [ main:146 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:25:11  [ main:146 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:27:15  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 11:27:15  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:27:15  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:27:15  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:27:15  [ main:118 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 11:27:15  [ main:197 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 11:27:15  [ main:322 ] - [ DEBUG ]  Created connection 494317290.
+2019-09-26 11:27:15  [ main:322 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d76aeea]
+2019-09-26 11:27:15  [ main:323 ] - [ DEBUG ]  ==>  Preparing: select * from orders where id=? 
+2019-09-26 11:27:15  [ main:349 ] - [ DEBUG ]  ==> Parameters: 1(Integer)
+2019-09-26 11:27:15  [ main:389 ] - [ DEBUG ]  <==      Total: 1
+2019-09-26 12:19:58  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 12:19:58  [ main:172 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:19:58  [ main:172 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:19:58  [ main:172 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:19:58  [ main:172 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:19:58  [ main:243 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 12:19:58  [ main:392 ] - [ DEBUG ]  Created connection 1853205005.
+2019-09-26 12:19:58  [ main:393 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6e75aa0d]
+2019-09-26 12:19:58  [ main:394 ] - [ DEBUG ]  ==>  Preparing: select orders.users_id uid , orders.number onum , items.name iname , items.price iprice , items.createtime itime from orders,items where orders.items_id=items.id 
+2019-09-26 12:19:58  [ main:422 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 12:19:59  [ main:452 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 12:21:11  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 12:21:11  [ main:133 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:21:11  [ main:133 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:21:11  [ main:133 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:21:11  [ main:133 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 12:21:11  [ main:212 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 12:21:11  [ main:344 ] - [ DEBUG ]  Created connection 1853205005.
+2019-09-26 12:21:11  [ main:344 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6e75aa0d]
+2019-09-26 12:21:11  [ main:346 ] - [ DEBUG ]  ==>  Preparing: select orders.users_id uid , orders.number onum , items.name iname , items.price iprice , items.createtime itime from orders,items where orders.items_id=items.id 
+2019-09-26 12:21:11  [ main:386 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 12:21:11  [ main:413 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 14:06:57  [ main:1 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 14:06:57  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:06:57  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:06:57  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:06:57  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:06:58  [ main:222 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 14:06:58  [ main:365 ] - [ DEBUG ]  Created connection 2143431083.
+2019-09-26 14:06:58  [ main:365 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7fc229ab]
+2019-09-26 14:06:58  [ main:367 ] - [ DEBUG ]  ==>  Preparing: select orders.users_id uid , orders.number onum , items.name iname , items.price iprice , items.createtime itime from orders,items where orders.items_id=items.id 
+2019-09-26 14:06:58  [ main:393 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 14:06:58  [ main:438 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 14:09:13  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 14:09:13  [ main:121 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:09:13  [ main:121 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:09:13  [ main:122 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:09:13  [ main:122 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:09:13  [ main:208 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 14:09:13  [ main:334 ] - [ DEBUG ]  Created connection 2143431083.
+2019-09-26 14:09:13  [ main:335 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7fc229ab]
+2019-09-26 14:09:13  [ main:336 ] - [ DEBUG ]  ==>  Preparing: select orders.users_id , orders.number , items.name , items.price , items.createtime from orders,items where orders.items_id=items.id 
+2019-09-26 14:09:13  [ main:357 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 14:09:13  [ main:401 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 14:25:28  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 14:25:28  [ main:130 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:25:28  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:25:28  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:25:28  [ main:131 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:25:28  [ main:210 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 14:25:28  [ main:346 ] - [ DEBUG ]  Created connection 2143431083.
+2019-09-26 14:25:28  [ main:346 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7fc229ab]
+2019-09-26 14:25:28  [ main:348 ] - [ DEBUG ]  ==>  Preparing: select orders.users_id , orders.number , items.name , items.price , items.createtime from orders,items where orders.items_id=items.id 
+2019-09-26 14:25:29  [ main:383 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 14:25:29  [ main:408 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 14:26:29  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 14:26:30  [ main:132 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:26:30  [ main:132 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:26:30  [ main:132 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:26:30  [ main:133 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 14:26:30  [ main:219 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 14:26:30  [ main:358 ] - [ DEBUG ]  Created connection 2143431083.
+2019-09-26 14:26:30  [ main:358 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7fc229ab]
+2019-09-26 14:26:30  [ main:360 ] - [ DEBUG ]  ==>  Preparing: select orders.users_id , orders.number , items.name , items.price , items.createtime from orders,items where orders.items_id=items.id 
+2019-09-26 14:26:30  [ main:391 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 14:26:30  [ main:419 ] - [ DEBUG ]  <==      Total: 4
+2019-09-26 15:39:26  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-26 15:39:26  [ main:149 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 15:39:26  [ main:149 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 15:39:26  [ main:149 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 15:39:26  [ main:150 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-09-26 15:39:26  [ main:255 ] - [ DEBUG ]  Opening JDBC Connection
+2019-09-26 15:39:26  [ main:396 ] - [ DEBUG ]  Created connection 750468423.
+2019-09-26 15:39:26  [ main:396 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2cbb3d47]
+2019-09-26 15:39:26  [ main:398 ] - [ DEBUG ]  ==>  Preparing: select u.username,u.sex, o.number,o.createtime, i.name,i.price, od.items_num from orderdetail od, users u , items i,orders o where od.orders_id=o.id and od.items_id=i.id group by u.username 
+2019-09-26 15:39:26  [ main:439 ] - [ DEBUG ]  ==> Parameters: 
+2019-09-26 15:39:26  [ main:472 ] - [ DEBUG ]  <==      Total: 3

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        
+        
+        <mapper  namespace="cn.yunhe.dao.IOrdersDao">
+        
+        
+        
+        <resultMap type="cn.yunhe.bean.Orders" id="itemsdetail">
+        	<result column="users_id" property="users_id"/>
+        	<result column="number" property="order_number"/>
+        	<association property="itemslist" javaType="cn.yunhe.bean.Items">
+        		<result column="name" property="itemsName"/>
+        		<result column="price" property="itemsPrice"/>
+        		<result column="createtime" property="itemsDate"/>
+        		
+        	
+        	</association>
+        	
+        </resultMap>
+        
+        	<select id="selectitems" resultType="orders" resultMap="itemsdetail">
+        	select orders.users_id  , 
+        		   orders.number  , 
+        		   items.name  , 
+        		   items.price  , 
+        		   items.createtime 
+			from orders,items
+			where orders.items_id=items.id
+        	</select>
+        	
+        	
+        	
+        	
+        	
+        	<resultMap type="cn.yunhe.bean.OrderDetail" id="orderDetaillist">
+        		<result column="items_num" property="items_num"/>
+        		<collection property="itemslist" ofType="cn.yunhe.bean.Items">
+        			<result column="name" property="itemsName"/>
+        			<result column="privce" property="itemsPrice"/>
+        			<association property="orders" javaType="cn.yunhe.bean.Orders">
+        				<result column=""/>
+        			
+        			</association>
+        		</collection>
+        	
+        	
+        	
+        	</resultMap>
+
+        	<select id="selectorders" resultType="cn.yunhe.bean.OrderDetail" resultMap="orderDetaillist" >
+        	select 
+				u.username,u.sex,
+				o.number,o.createtime,
+				i.name,i.price,
+				od.items_num
+			from orderdetail od, users u , items i,orders o
+			where od.orders_id=o.id and od.items_id=i.id group by u.username
+        	
+        	
+        	
+        	</select>
+        	
+        </mapper>
